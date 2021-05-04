@@ -15,8 +15,8 @@ export default new Vuetify({
             background: colors.blue.accent2,
 
         },
-        // dark: {
-        //     background: colors.blue,
-        // }
+        dark: {
+            background: colors.blue,
+        }
     }
 });

@@ -35,6 +35,7 @@
                              <div class="grey--text">
                                <h4>Traffic fines</h4>
                                <p class=ma-2>{{slide}}</p>
+                               <v-btn outlined color="indigo">read more</v-btn>
                              </div>
                           </v-row>
                         </v-sheet>
