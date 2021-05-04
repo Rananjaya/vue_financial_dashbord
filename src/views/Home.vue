@@ -9,8 +9,14 @@
                     <v-row>
                       <v-col cols="=12" md="9" offset-md="1">
                          <v-text-field label="Search" prepend-inner-icon="search">
-
+                             
                          </v-text-field>
+                      </v-col>
+                      <v-col cols="12" md="2" align="center" justify="center">
+                         <v-badge color="error" overlap class="mt-5">
+                             <template slot="badge">2</template>
+                             <v-icon color="tertiary">mdi-bell</v-icon>
+                         </v-badge>
                       </v-col>
                     </v-row>
                   </v-container>
