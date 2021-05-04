@@ -30,6 +30,78 @@
                             </div>
                           </template>
                        </v-col>
+                       <v-col cols="12" md="12">
+                           <h1 class="headline mb-2 grey--text">Budgets</h1>
+                       </v-col>
+
+                       <v-col cols="12" md="8">
+                            <v-card>
+                              <v-list>
+                                <v-list-item>
+                                  <v-list-item-avatar color="blue">
+                                    <v-icon dark>fas fa-car</v-icon>
+                                  </v-list-item-avatar>
+                                  <v-list-item-content>
+                                    <v-list-item-title>Auto and Transport</v-list-item-title>
+                                    <v-list-item-subtitle>$700 left</v-list-item-subtitle>
+                                  </v-list-item-content>
+
+                                  <v-list-item-content align="right">
+                                       <v-list-item-title class="indigo--text">$1200</v-list-item-title>
+                                    <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
+                                  </v-list-item-content>
+                                </v-list-item>
+
+                                  <v-list-item>
+                                  <v-list-item-avatar color="red">
+                                    <v-icon dark>fas fa-utensils</v-icon>
+                                  </v-list-item-avatar>
+                                  <v-list-item-content>
+                                    <v-list-item-title>Food and Drink</v-list-item-title>
+                                    <v-list-item-subtitle>$700 left</v-list-item-subtitle>
+                                  </v-list-item-content>
+
+                                  <v-list-item-content align="right">
+                                       <v-list-item-title class="indigo--text">$1200</v-list-item-title>
+                                    <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
+                                  </v-list-item-content>
+                                </v-list-item>
+
+                                  <v-list-item>
+                                  <v-list-item-avatar color="orange">
+                                    <v-icon dark>fas fa-dumbbell</v-icon>
+                                  </v-list-item-avatar>
+                                  <v-list-item-content>
+                                    <v-list-item-title>Sport</v-list-item-title>
+                                    <v-list-item-subtitle>$700 left</v-list-item-subtitle>
+                                  </v-list-item-content>
+
+                                  <v-list-item-content align="right">
+                                       <v-list-item-title class="indigo--text">$1200</v-list-item-title>
+                                    <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
+                                  </v-list-item-content>
+                                </v-list-item>
+
+                                  <v-list-item>
+                                  <v-list-item-avatar color="green">
+                                    <v-icon dark>fas fa-gamepad</v-icon>
+                                  </v-list-item-avatar>
+                                  <v-list-item-content>
+                                    <v-list-item-title>Auto and Transport</v-list-item-title>
+                                    <v-list-item-subtitle>$700 left</v-list-item-subtitle>
+                                  </v-list-item-content>
+
+                                  <v-list-item-content align="right">
+                                       <v-list-item-title class="indigo--text">$1200</v-list-item-title>
+                                    <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
+                                  </v-list-item-content>
+                                </v-list-item>
+                                <v-divider inset>
+                                    
+                                </v-divider>
+                              </v-list>
+                            </v-card>
+                       </v-col>
 
 
                     </v-row>
