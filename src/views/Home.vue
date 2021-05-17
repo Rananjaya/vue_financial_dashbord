@@ -7,17 +7,20 @@
                <v-col cols="12" md="8" class="ligne">
                   <v-container>
                     <v-row>
+                      <!-- search bar -->
                       <v-col cols="=12" md="9" offset-md="1">
                          <v-text-field label="Search" prepend-inner-icon="search">
                              
                          </v-text-field>
                       </v-col>
+                      <!-- bell icon top -->
                       <v-col cols="12" md="2" align="center" justify="center">
                          <v-badge color="error" overlap class="mt-5">
                              <template slot="badge">2</template>
                              <v-icon color="tertiary">mdi-bell</v-icon>
                          </v-badge>
                       </v-col>
+                      <!-- Money status -->
                        <v-col cols="12" md="12">
                          <h1 class="headline mb-2 grey--text">Money Status</h1>
                           <template>
@@ -30,10 +33,11 @@
                             </div>
                           </template>
                        </v-col>
+                       <!-- show Budgets -->
                        <v-col cols="12" md="12">
                            <h1 class="headline mb-2 grey--text">Budgets</h1>
                        </v-col>
-
+                       <!-- list items set -->
                        <v-col cols="12" md="8">
                             <v-card>
                               <v-list>
@@ -68,7 +72,7 @@
                                     <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
                                   </v-list-item-content>
                                 </v-list-item>
-                       <v-divider inset>
+                          <v-divider inset>
                                     
                                 </v-divider>
                                   <v-list-item>
@@ -109,7 +113,7 @@
                             </v-card>
                        </v-col>
                        <!--  -->
-
+                       <!-- fin image card -->
                        <v-col cols="12" md="4">
                            <v-card class="mx-auto" max-height="400">
                                   <v-img class="white--text align-end" height="150px" src="card.jpg"></v-img>
@@ -123,9 +127,11 @@
            
                        </v-col>
                 </v-row>
+                <!-- 2nd row end -->
 
                   </v-container>
                </v-col>
+               <!-- 2nd cloumn -->
                <v-col cols="12" md="4">
 
                      <v-container>
