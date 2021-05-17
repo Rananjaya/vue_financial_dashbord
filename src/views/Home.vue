@@ -157,7 +157,7 @@
                                    
                                    <v-list-item-action>
                                      <v-icon color="indigo" large>fab fa-cc-visa</v-icon>
-                                     <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                     <!-- <v-icon color="white">fas fa-dollar-sign</v-icon> -->
                                    </v-list-item-action>
 
 
@@ -174,7 +174,7 @@
                                    
                                    <v-list-item-action>
                                      <v-icon color="black" large>fab fa-cc-mastercard</v-icon>
-                                     <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                     <!-- <v-icon color="white">fas fa-dollar-sign</v-icon> -->
                                    </v-list-item-action>
 
 
@@ -191,7 +191,7 @@
                                    
                                    <v-list-item-action>
                                      <v-icon color="green" large>fab fa-cc-paypal</v-icon>
-                                     <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                     <!-- <v-icon color="white">fas fa-dollar-sign</v-icon> -->
                                    </v-list-item-action>
 
 
