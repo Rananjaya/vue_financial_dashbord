@@ -145,6 +145,75 @@
                              </v-list-item>
                              <v-divider></v-divider>
                            </v-col>
+                           <v-col cols="12" md12>
+                                <v-list-item>
+                                    <v-list-item-avatar color="grey">
+                                       <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                    </v-list-item-avatar>
+                                    <v-list-item-content>
+                                       <v-list-item-subtitle>www.ebay.com</v-list-item-subtitle>
+                                        <v-list-item-title>$ 15,423</v-list-item-title>
+                                    </v-list-item-content>
+                                   
+                                   <v-list-item-action>
+                                     <v-icon color="indigo" large>fab fa-cc-visa</v-icon>
+                                     <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                   </v-list-item-action>
+
+
+                                </v-list-item>
+                                <!--  -->
+                                        <v-list-item>
+                                    <v-list-item-avatar color="grey">
+                                       <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                    </v-list-item-avatar>
+                                    <v-list-item-content>
+                                       <v-list-item-subtitle>Google Play store</v-list-item-subtitle>
+                                        <v-list-item-title>$ 15,423</v-list-item-title>
+                                    </v-list-item-content>
+                                   
+                                   <v-list-item-action>
+                                     <v-icon color="black" large>fab fa-cc-mastercard</v-icon>
+                                     <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                   </v-list-item-action>
+
+
+                                </v-list-item>
+                                <!--  -->
+                                        <v-list-item>
+                                    <v-list-item-avatar color="grey">
+                                       <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                    </v-list-item-avatar>
+                                    <v-list-item-content>
+                                       <v-list-item-subtitle>www.amazon.com</v-list-item-subtitle>
+                                        <v-list-item-title>$ 15,423</v-list-item-title>
+                                    </v-list-item-content>
+                                   
+                                   <v-list-item-action>
+                                     <v-icon color="green" large>fab fa-cc-paypal</v-icon>
+                                     <v-icon color="white">fas fa-dollar-sign</v-icon>
+                                   </v-list-item-action>
+
+
+                                </v-list-item>
+                                <v-divider></v-divider>
+                           </v-col>
+                           <v-col cols="12" md12>
+                                 <v-list-item>
+                                     <v-list-item-avatar color="indigo">
+                                        <v-icon color="white">fas fa-plus</v-icon>
+                                     </v-list-item-avatar>
+                                     <v-list-item-content>
+                                        <v-list-item-title>Add credit card</v-list-item-title>
+                                     </v-list-item-content>
+                                 </v-list-item>
+
+                                 <!--  -->
+                                   <v-col cols=12>
+                                     
+                                   </v-col>
+
+                           </v-col>
                         </v-row>
                      
                      </v-container> 
