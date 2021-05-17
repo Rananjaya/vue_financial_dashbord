@@ -209,8 +209,18 @@
                                  </v-list-item>
 
                                  <!--  -->
-                                   <v-col cols=12>
-                                     
+                                   <v-col cols=12 md12>
+                                       <v-card color="#952175" dark>
+                                          <div class="d-flex flex-no-wrap justify-space-between">
+                                              <div>
+                                                  <v-card-title class="headline">Upgrade your plan</v-card-title>
+                                                  <v-card-subtitle>upgrade your plan to gold to access premium</v-card-subtitle>
+                                              </div>
+                                              <v-avatar class="ma-3" size="80" tile>
+                                                <v-img src="medal-of-honor.png"></v-img>
+                                              </v-avatar>
+                                          </div>
+                                       </v-card>
                                    </v-col>
 
                            </v-col>
