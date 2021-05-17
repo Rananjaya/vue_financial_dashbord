@@ -51,7 +51,9 @@
                                     <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
                                   </v-list-item-content>
                                 </v-list-item>
-
+                           <v-divider inset>
+                                    
+                                </v-divider>
                                   <v-list-item>
                                   <v-list-item-avatar color="red">
                                     <v-icon dark>fas fa-utensils</v-icon>
@@ -66,7 +68,9 @@
                                     <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
                                   </v-list-item-content>
                                 </v-list-item>
-
+                       <v-divider inset>
+                                    
+                                </v-divider>
                                   <v-list-item>
                                   <v-list-item-avatar color="orange">
                                     <v-icon dark>fas fa-dumbbell</v-icon>
@@ -81,7 +85,9 @@
                                     <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
                                   </v-list-item-content>
                                 </v-list-item>
-
+                               <v-divider inset>
+                                    
+                                </v-divider>
                                   <v-list-item>
                                   <v-list-item-avatar color="green">
                                     <v-icon dark>fas fa-gamepad</v-icon>
@@ -96,19 +102,52 @@
                                     <v-list-item-subtitle>$500 of $1200</v-list-item-subtitle>
                                   </v-list-item-content>
                                 </v-list-item>
-                                <v-divider inset>
+                                <!-- <v-divider inset>
                                     
-                                </v-divider>
+                                </v-divider> -->
                               </v-list>
                             </v-card>
                        </v-col>
+                       <!--  -->
 
+                       <v-col cols="12" md="4">
+                           <v-card class="mx-auto" max-height="400">
+                                  <v-img class="white--text align-end" height="150px" src="card.jpg"></v-img>
+                                   <v-card-title class="pb-0">Cash loan</v-card-title>
+                                     <v-card-text class=text-primary>
+                                        <div>Up to 2 million dollers</div>
+                                         <div>Money the next date. Rate</div>
+                                         
+                                     </v-card-text>
+                           </v-card>
+           
+                       </v-col>
+                </v-row>
 
-                    </v-row>
                   </v-container>
                </v-col>
                <v-col cols="12" md="4">
 
+                     <v-container>
+                        <v-row>
+                           <v-col cols="12" md12>
+                             <v-list-item>
+                                 <v-list-item-avatar>
+                                      <v-img src="profile.png"></v-img>
+                                 </v-list-item-avatar>
+                                     <v-list-item-content>
+                                         <v-list-item-title>Rananjaya Bandara</v-list-item-title>
+                                         <v-list-item-subtitle>rananjayabandara@gmail.com</v-list-item-subtitle>
+                                     </v-list-item-content>
+                                     <v-list-item-action>
+                                          <v-icon>fas fa-sign-out-alt</v-icon>
+                                     </v-list-item-action>
+                             </v-list-item>
+                             <v-divider></v-divider>
+                           </v-col>
+                        </v-row>
+                     
+                     </v-container> 
                </v-col>
              </v-row>
            </v-app>
